@@ -14,8 +14,6 @@ class Simon
                 :pattern_success_count
 
   def initialize(options)
-    gem_deps
-
     case options[:difficulty]
     when 1
       self.pattern_speed = SIMON_SPEED_DEFAULT
